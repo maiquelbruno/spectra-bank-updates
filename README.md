@@ -1,1 +1,1 @@
-# Spectra_Bank_Pub
+# Spectra Bank — Atualizações oficiais`r`n`r`nEste repositório contém somente manifestos e pacotes oficiais de atualização do Spectra Bank. O código-fonte permanece em um repositório privado.`r`n
