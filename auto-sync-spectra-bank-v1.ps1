@@ -213,6 +213,13 @@ function Publish-All {
         return $true
     }
 
+    Write-Host "Enviando objetos Git LFS para origin/$branch..." -ForegroundColor Cyan
+    git lfs push origin $branch
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "ERRO ao enviar objetos Git LFS." -ForegroundColor Red
+        return $false
+    }
+
     Write-Host "Enviando $unpushed commit(s) para origin/$branch..." -ForegroundColor Cyan
     git push origin $branch
     if ($LASTEXITCODE -eq 0) {
