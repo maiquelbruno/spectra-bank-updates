@@ -1,0 +1,2 @@
+0000002-6;4800.00;Salario Piloto 1 - Folha de pagamento
+0000003-4;5250.50;Salario Piloto 2 - Folha de pagamento
